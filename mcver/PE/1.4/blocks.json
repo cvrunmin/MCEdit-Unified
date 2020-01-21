@@ -1431,6 +1431,39 @@
       "id": 415,
       "idStr": "bubble_column",
       "name": "Bubble_Column"
+    },
+    {
+      "id": 420,
+      "idStr": "normal_stone_stairs",
+      "name": "Normal Stone Stairs",
+			"tex": [1, 0],
+      "type": "STAIRS",
+      "data": {
+        "0": {
+          "name": "Normal Stone Stairs (Bottom, East)"
+        },
+        "1": {
+          "name": "Normal Stone Stairs (Bottom, West)"
+        },
+        "2": {
+          "name": "Normal Stone Stairs (Bottom, South)"
+        },
+        "3": {
+          "name": "Normal Stone Stairs (Bottom, North)"
+        },
+        "4": {
+          "name": "Normal Stone Stairs (Top, East)"
+        },
+        "5": {
+          "name": "Normal Stone Stairs (Top, West)"
+        },
+        "6": {
+          "name": "Normal Stone Stairs (Top, South)"
+        },
+        "7": {
+          "name": "Normal Stone Stairs (Top, North)"
+        }
+      }
     }
   ]
 }

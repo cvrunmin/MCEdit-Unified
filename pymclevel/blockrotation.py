@@ -127,7 +127,7 @@ genericFlipRotation(Ladder)
 
 
 class Stair(__Rotation):
-    blocktypes = ['list(set([b.ID for b in alphaMaterials.AllStairs]))']
+    blocktypes = ['list(set([b.ID for b in alphaMaterials.AllStairs]))', 'alphaMaterials.NormalStoneStairs.ID']
 
     South = 0
     North = 1

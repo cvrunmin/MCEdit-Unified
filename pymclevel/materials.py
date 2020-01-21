@@ -783,7 +783,7 @@ def build_alpha_materials():
     alphaMaterials.DaylightSensorOn = alphaMaterials[178, 0]
     alphaMaterials.RedSandstone = alphaMaterials[179, 0]
     alphaMaterials.SmooothRedSandstone = alphaMaterials[179, 1]
-    alphaMaterials.RedSandstoneSairs = alphaMaterials[180, 0]
+    alphaMaterials.RedSandstoneStairs = alphaMaterials[180, 0]
     alphaMaterials.DoubleRedSandstoneSlab = alphaMaterials[181, 0]
     alphaMaterials.RedSandstoneSlab = alphaMaterials[182, 0]
     alphaMaterials.SpruceFenceGate = alphaMaterials[183, 0]
@@ -824,6 +824,8 @@ def build_alpha_materials():
     alphaMaterials.DarkOakTrapdoor = alphaMaterials[402, 0]
     alphaMaterials.JungleTrapdoor = alphaMaterials[403, 0]
     alphaMaterials.SpruceTrapdoor = alphaMaterials[404, 0]
+
+    alphaMaterials.NormalStoneStairs = alphaMaterials[420, 0]
 
     build_api_material_map(alphaMaterials)
 
@@ -1183,6 +1185,8 @@ def build_pocket_materials():
     pocketMaterials.DarkOakTrapdoor = pocketMaterials[402, 0]
     pocketMaterials.JungleTrapdoor = pocketMaterials[403, 0]
     pocketMaterials.SpruceTrapdoor = pocketMaterials[404, 0]
+
+    pocketMaterials.NormalStoneStairs = pocketMaterials[420, 0]
 
     build_api_material_map(pocketMaterials)
 
