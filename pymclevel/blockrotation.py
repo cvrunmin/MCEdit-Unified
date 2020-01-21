@@ -564,7 +564,14 @@ applyBits48(RedstoneRepeater)
 
 
 class Trapdoor(__Rotation):
-    blocktypes = ['alphaMaterials.Trapdoor.ID', 'alphaMaterials.IronTrapdoor.ID',  'alphaMaterials.SpruceTrapdoor.ID']
+    blocktypes = [
+        'alphaMaterials.Trapdoor.ID',
+        'alphaMaterials.IronTrapdoor.ID',
+        'alphaMaterials.AcaciaTrapdoor.ID',
+        'alphaMaterials.BirchTrapdoor.ID',
+        'alphaMaterials.DarkOakTrapdoor.ID',
+        'alphaMaterials.JungleTrapdoor.ID',
+        'alphaMaterials.SpruceTrapdoor.ID']
 
     West = 0
     East = 1
