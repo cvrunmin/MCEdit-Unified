@@ -818,6 +818,7 @@ def build_alpha_materials():
     alphaMaterials.FrostedIce = alphaMaterials[212, 0]
     alphaMaterials.StructureVoid = alphaMaterials[217, 0]
     alphaMaterials.StructureBlock = alphaMaterials[255, 0]
+    alphaMaterials.SpruceTrapdoor = alphaMaterials[404, 0]
     build_api_material_map(alphaMaterials)
 
 # --- Classic static block defs ---
@@ -1170,6 +1171,8 @@ def build_pocket_materials():
     pocketMaterials.UpdateGameBlock2 = pocketMaterials[249, 0]
     pocketMaterials.StructureBlock = pocketMaterials[252, 0]
     pocketMaterials.info_reserved6 = pocketMaterials[255, 0]
+
+    pocketMaterials.SpruceTrapdoor = pocketMaterials[404, 0]
 
     build_api_material_map(pocketMaterials)
 

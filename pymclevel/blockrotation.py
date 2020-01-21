@@ -6,7 +6,6 @@ from numpy import arange, zeros
 import collections
 import re
 
-
 class __Rotation:
     def __init__(self):
         for i, blocktype in enumerate(self.blocktypes):
@@ -565,7 +564,7 @@ applyBits48(RedstoneRepeater)
 
 
 class Trapdoor(__Rotation):
-    blocktypes = ['alphaMaterials.Trapdoor.ID', 'alphaMaterials.IronTrapdoor.ID']
+    blocktypes = ['alphaMaterials.Trapdoor.ID', 'alphaMaterials.IronTrapdoor.ID',  'alphaMaterials.SpruceTrapdoor.ID']
 
     West = 0
     East = 1
@@ -576,10 +575,39 @@ class Trapdoor(__Rotation):
     TopSouth = 6
     TopNorth = 7
 
+    WestOpen = 8
+    EastOpen = 9
+    SouthOpen = 10
+    NorthOpen = 11
+    TopWestOpen = 12
+    TopEastOpen = 13
+    TopSouthOpen = 14
+    TopNorthOpen = 15
+    
+    rotateLeft = arange(16, dtype='uint8')
 
 genericFlipRotation(Trapdoor)
-applyOpenedBit = applyBit8
-applyOpenedBit(Trapdoor)
+#applyOpenedBit = applyBit8
+#applyOpenedBit(Trapdoor)
+Trapdoor.rotateLeft[Trapdoor.North] = Trapdoor.East
+Trapdoor.rotateLeft[Trapdoor.East] = Trapdoor.South
+Trapdoor.rotateLeft[Trapdoor.South] = Trapdoor.West
+Trapdoor.rotateLeft[Trapdoor.West] = Trapdoor.North
+
+Trapdoor.rotateLeft[Trapdoor.TopNorth] = Trapdoor.TopEast
+Trapdoor.rotateLeft[Trapdoor.TopEast] = Trapdoor.TopSouth
+Trapdoor.rotateLeft[Trapdoor.TopSouth] = Trapdoor.TopWest
+Trapdoor.rotateLeft[Trapdoor.TopWest] = Trapdoor.TopNorth
+
+Trapdoor.rotateLeft[Trapdoor.NorthOpen] = Trapdoor.EastOpen
+Trapdoor.rotateLeft[Trapdoor.EastOpen] = Trapdoor.SouthOpen
+Trapdoor.rotateLeft[Trapdoor.SouthOpen] = Trapdoor.WestOpen
+Trapdoor.rotateLeft[Trapdoor.WestOpen] = Trapdoor.NorthOpen
+
+Trapdoor.rotateLeft[Trapdoor.TopNorthOpen] = Trapdoor.TopEastOpen
+Trapdoor.rotateLeft[Trapdoor.TopEastOpen] = Trapdoor.TopSouthOpen
+Trapdoor.rotateLeft[Trapdoor.TopSouthOpen] = Trapdoor.TopWestOpen
+Trapdoor.rotateLeft[Trapdoor.TopWestOpen] = Trapdoor.TopNorthOpen
 
 
 class PistonBody(__Rotation):

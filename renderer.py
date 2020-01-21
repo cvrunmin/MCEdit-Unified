@@ -2817,22 +2817,25 @@ class TrapDoorRenderer(BlockRenderer):
     })
 
     trapDoorTemplates = numpy.array([
-        bottomTemplate,
-        bottomTemplate,
-        bottomTemplate,
-        bottomTemplate,
-        openTemplate,
-        rotateTemplate(openTemplate, y=180),
-        rotateTemplate(openTemplate, y=270),
+        rotateTemplate(bottomTemplate, y=90),
+        rotateTemplate(bottomTemplate, y=270),
+        rotateTemplate(bottomTemplate, y=180),
+        rotateTemplate(bottomTemplate, y=0),
+
+        rotateTemplate(topTemplate, y=90),
+        rotateTemplate(topTemplate, y=270),
+        rotateTemplate(topTemplate, y=180),
+        rotateTemplate(topTemplate, y=0),
+
         rotateTemplate(openTemplate, y=90),
-        topTemplate,
-        topTemplate,
-        topTemplate,
-        topTemplate,
-        openTemplate,
-        rotateTemplate(openTemplate, y=180),
         rotateTemplate(openTemplate, y=270),
+        rotateTemplate(openTemplate, y=180),
+        rotateTemplate(openTemplate, y=0),
+
         rotateTemplate(openTemplate, y=90),
+        rotateTemplate(openTemplate, y=270),
+        rotateTemplate(openTemplate, y=180),
+        rotateTemplate(openTemplate, y=0),
     ])
 
     makeVertices = makeVerticesFromModel(trapDoorTemplates, 15)

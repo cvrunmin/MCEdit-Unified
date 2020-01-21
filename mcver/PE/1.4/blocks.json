@@ -996,12 +996,69 @@
       "id": 403,
       "idStr": "jungle_trapdoor",
       "name": "Jungle Trapdoor"
-    },
-    {
-      "id": 404,
-      "idStr": "spruce_trapdoor",
-      "name": "Spruce Trapdoor"
-    },
+    },    
+		{
+			"id": 404,
+			"idStr": "spruce_trapdoor",
+			"mapcolor": [143, 107, 53],
+			"name": "Spruce Trapdoor",
+			"opacity": 0,
+			"tex": [0, 31],
+			"type": "TRAPDOOR",
+			"data": {
+				"0": {
+					"name": "Spruce Trapdoor (Bottom, Closed, West)"
+				},
+				"1": {
+					"name": "Spruce Trapdoor (Bottom, Closed, East)"
+				},
+				"2": {
+					"name": "Spruce Trapdoor (Bottom, Closed, North)"
+        },
+				"3": {
+					"name": "Spruce Trapdoor (Bottom, Closed, South)"
+				},
+        
+				"4": {
+					"name": "Spruce Trapdoor (Top, Closed, West)"
+				},
+				"5": {
+					"name": "Spruce Trapdoor (Top, Closed, East)"
+				},
+				"6": {
+					"name": "Spruce Trapdoor (Top, Closed, North)"
+				},
+				"7": {
+					"name": "Spruce Trapdoor (Top, Closed, South)"
+				},
+        
+				"8": {
+					"name": "Spruce Trapdoor (Bottom, Opened, West)"
+				},
+				"9": {
+					"name": "Spruce Trapdoor (Bottom, Opened, East)"
+				},
+				"10": {
+					"name": "Spruce Trapdoor (Bottom, Opened, North)"
+        },
+				"11": {
+					"name": "Spruce Trapdoor (Bottom, Opened, South)"
+        },        
+
+				"12": {
+					"name": "Spruce Trapdoor (Top, Opened, West)"
+				},
+				"13": {
+					"name": "Spruce Trapdoor (Top, Opened, East)"
+				},
+				"14": {
+					"name": "Spruce Trapdoor (Top, Opened, North)"
+				},
+				"15": {
+					"name": "Spruce Trapdoor (Top, Opened, South)"
+				}
+			}
+		},
     {
       "id": 405,
       "idStr": "acacia_pressure_plate",

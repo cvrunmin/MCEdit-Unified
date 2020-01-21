@@ -247,6 +247,7 @@ class MCSchematic(EntityLevel):
         blockrotation.RotateLeft(self.Blocks, self.Data)
 
     def rotateLeft(self):
+        print("Rotating!!!")
         self._fakeEntities = None
         self._Blocks = swapaxes(self._Blocks, 1, 2)[:, ::-1, :]  # x=z; z=-x
         if "Biomes" in self.root_tag:
