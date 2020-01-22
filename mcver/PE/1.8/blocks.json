@@ -1,0 +1,101 @@
+{
+  "load": "1.7",
+  "blocks": [
+    {
+      "id": 418,
+      "idStr": "bamboo",
+      "name": "Bamboo",
+      "mapcolor": [
+        0,
+        124,
+        0
+      ],
+      "tex": [
+        21,
+        6
+      ],
+      "type": "DECORATION_CROSS"
+    },
+    {
+      "id": 419,
+      "idStr": "bamboo_sapling",
+      "name": "Bamboo Sapling",
+      "opacity": 0,
+      "mapcolor": [
+        0,
+        124,
+        0
+      ],
+      "tex": [
+        22,
+        6
+      ],
+      "type": "DECORATION_CROSS"
+    },
+    {
+      "id": 420,
+      "idStr": "scaffolding",
+      "name": "Scaffolding",
+      "opacity": 0,
+      "mapcolor": [
+        247,
+        233,
+        163
+      ],
+      "tex": [
+        19,
+        15
+      ],
+      "data": {
+        "0": {
+          "name": "Scaffolding"
+        },
+        "1": {
+          "name": "Scaffolding"
+        },
+        "2": {
+          "name": "Scaffolding"
+        },
+        "3": {
+          "name": "Scaffolding"
+        },
+        "4": {
+          "name": "Scaffolding"
+        },
+        "5": {
+          "name": "Scaffolding"
+        },
+        "6": {
+          "name": "Scaffolding"
+        },
+        "7": {
+          "name": "Scaffolding"
+        },
+        "8": {
+          "name": "Scaffolding"
+        },
+        "9": {
+          "name": "Scaffolding"
+        },
+        "10": {
+          "name": "Scaffolding"
+        },
+        "11": {
+          "name": "Scaffolding"
+        },
+        "12": {
+          "name": "Scaffolding"
+        },
+        "13": {
+          "name": "Scaffolding"
+        },
+        "14": {
+          "name": "Scaffolding"
+        },
+        "15": {
+          "name": "Scaffolding"
+        }
+      }
+    }
+  ]
+}

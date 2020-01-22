@@ -1,0 +1,632 @@
+{
+    "load": "1.8",
+    "blocks": [
+        {
+            "id": 421,
+            "idStr": "stone_slab4",
+            "name": "Stone Slab",
+            "tex": [
+                1,
+                0
+            ],
+            "mapcolor": [
+                140,
+                90,
+                90
+            ],
+            "type": "HALFHEIGHT",
+            "data": {
+                "2": {
+                    "name": "Stone Slab (Bottom)",
+                    "tex": [
+                        1,
+                        0
+                    ],
+                    "tex_direction": {
+                        "TOP": [
+                            1,
+                            0
+                        ],
+                        "BOTTOM": [
+                            1,
+                            0
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 423,
+            "idStr": "double_stone_slab4",
+            "name": "Double Stone Slab",
+            "tex": [
+                4,
+                6
+            ],
+            "mapcolor": [
+                140,
+                90,
+                90
+            ],
+            "data": {
+                "0": {
+                    "name": "Stone Double Slab",
+                    "tex": [
+                        4,
+                        6
+                    ]
+                }
+            }
+        },
+        {
+            "id": 435,
+            "idStr": "normal_stone_stairs",
+            "name": "Normal Stone Stairs",
+            "tex": [
+                1,
+                0
+            ],
+            "type": "STAIRS",
+            "data": {
+                "0": {
+                    "name": "Normal Stone Stairs (Bottom, East)"
+                },
+                "1": {
+                    "name": "Normal Stone Stairs (Bottom, West)"
+                },
+                "2": {
+                    "name": "Normal Stone Stairs (Bottom, South)"
+                },
+                "3": {
+                    "name": "Normal Stone Stairs (Bottom, North)"
+                },
+                "4": {
+                    "name": "Normal Stone Stairs (Top, East)"
+                },
+                "5": {
+                    "name": "Normal Stone Stairs (Top, West)"
+                },
+                "6": {
+                    "name": "Normal Stone Stairs (Top, South)"
+                },
+                "7": {
+                    "name": "Normal Stone Stairs (Top, North)"
+                }
+            }
+        },
+        {
+            "id": 139,
+            "idStr": "cobblestone_wall",
+            "mapcolor": [
+                128,
+                128,
+                128
+            ],
+            "name": "Cobblestone Wall",
+            "opacity": 0,
+            "tex": [
+                0,
+                1
+            ],
+            "type": "FENCE",
+            "data": {
+                "0": {
+                    "name": "Cobblestone Wall",
+                    "tex": [
+                        0,
+                        1
+                    ]
+                },
+                "1": {
+                    "name": "Cobblestone Wall (Mossy)",
+                    "tex": [
+                        4,
+                        2
+                    ]
+                },
+                "3": {
+                    "name": "Cobblestone Wall (Diorite)",
+                    "tex": [
+                        6,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "id": 438,
+            "idStr": "smooth_stone",
+            "mapcolor": [
+                128,
+                128,
+                128
+            ],
+            "name": "Smooth Stone",
+            "opacity": 0,
+            "tex": [
+                6,
+                0
+            ]
+        },
+        {
+            "id": 437,
+            "idStr": "spruce_wall_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Spruce Wall Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                16
+            ],
+            "type": "WALLSIGN",
+            "data": {
+                "2": {
+                    "name": "Spruce Wall Sign (North)"
+                },
+                "3": {
+                    "name": "Spruce Wall Sign (South)"
+                },
+                "4": {
+                    "name": "Spruce Wall Sign (West)"
+                },
+                "5": {
+                    "name": "Spruce Wall Sign (East)"
+                }
+            }
+        },
+        {
+            "id": 442,
+            "idStr": "birch_wall_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Birch Wall Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                17
+            ],
+            "type": "WALLSIGN",
+            "data": {
+                "2": {
+                    "name": "Birch Wall Sign (North)"
+                },
+                "3": {
+                    "name": "Birch Wall Sign (South)"
+                },
+                "4": {
+                    "name": "Birch Wall Sign (West)"
+                },
+                "5": {
+                    "name": "Birch Wall Sign (East)"
+                }
+            }
+        },
+        {
+            "id": 444,
+            "idStr": "jungle_wall_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Jungle Wall Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                18
+            ],
+            "type": "WALLSIGN",
+            "data": {
+                "2": {
+                    "name": "Jungle Wall Sign (North)"
+                },
+                "3": {
+                    "name": "Jungle Wall Sign (South)"
+                },
+                "4": {
+                    "name": "Jungle Wall Sign (West)"
+                },
+                "5": {
+                    "name": "Jungle Wall Sign (East)"
+                }
+            }
+        },
+        {
+            "id": 446,
+            "idStr": "acacia_wall_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Acacia Wall Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                19
+            ],
+            "type": "WALLSIGN",
+            "data": {
+                "2": {
+                    "name": "Acacia Wall Sign (North)"
+                },
+                "3": {
+                    "name": "Acacia Wall Sign (South)"
+                },
+                "4": {
+                    "name": "Acacia Wall Sign (West)"
+                },
+                "5": {
+                    "name": "Acacia Wall Sign (East)"
+                }
+            }
+        },
+        {
+            "id": 448,
+            "idStr": "darkoak_wall_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Dark Oak Wall Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                20
+            ],
+            "type": "WALLSIGN",
+            "data": {
+                "2": {
+                    "name": "Dark Oak Wall Sign (North)"
+                },
+                "3": {
+                    "name": "Dark Oak Wall Sign (South)"
+                },
+                "4": {
+                    "name": "Dark Oak Wall Sign (West)"
+                },
+                "5": {
+                    "name": "Dark Oak Wall Sign (East)"
+                }
+            }
+        },
+        {
+            "id": 472,
+            "idStr": "spruce_standing_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Spruce Standing Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                11
+            ],
+            "type": "SIGNPOST",
+            "data": {
+                "0": {
+                    "name": "Spruce Standing Sign (South)"
+                },
+                "1": {
+                    "name": "Spruce Standing Sign (South-SouthWest)"
+                },
+                "2": {
+                    "name": "Spruce Standing Sign (SouthWest)"
+                },
+                "3": {
+                    "name": "Spruce Standing Sign (West-SouthWest)"
+                },
+                "4": {
+                    "name": "Spruce Standing Sign (West)"
+                },
+                "5": {
+                    "name": "Spruce Standing Sign (West-NorthWest)"
+                },
+                "6": {
+                    "name": "Spruce Standing Sign (NorthWest)"
+                },
+                "7": {
+                    "name": "Spruce Standing Sign (North-NorthWest)"
+                },
+                "8": {
+                    "name": "Spruce Standing Sign (North)"
+                },
+                "9": {
+                    "name": "Spruce Standing Sign (North-NorthEast)"
+                },
+                "10": {
+                    "name": "Spruce Standing Sign (NorthEast)"
+                },
+                "11": {
+                    "name": "Spruce Standing Sign (East-NorthEast)"
+                },
+                "12": {
+                    "name": "Spruce Standing Sign (East)"
+                },
+                "13": {
+                    "name": "Spruce Standing Sign (East-SouthEast)"
+                },
+                "14": {
+                    "name": "Spruce Standing Sign (SouthEast)"
+                },
+                "15": {
+                    "name": "Spruce Standing Sign (South-SouthEast)"
+                }
+            }
+        },
+        {
+            "id": 473,
+            "idStr": "birch_standing_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Birch Standing Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                12
+            ],
+            "type": "SIGNPOST",
+            "data": {
+                "0": {
+                    "name": "Birch Standing Sign (South)"
+                },
+                "1": {
+                    "name": "Birch Standing Sign (South-SouthWest)"
+                },
+                "2": {
+                    "name": "Birch Standing Sign (SouthWest)"
+                },
+                "3": {
+                    "name": "Birch Standing Sign (West-SouthWest)"
+                },
+                "4": {
+                    "name": "Birch Standing Sign (West)"
+                },
+                "5": {
+                    "name": "Birch Standing Sign (West-NorthWest)"
+                },
+                "6": {
+                    "name": "Birch Standing Sign (NorthWest)"
+                },
+                "7": {
+                    "name": "Birch Standing Sign (North-NorthWest)"
+                },
+                "8": {
+                    "name": "Birch Standing Sign (North)"
+                },
+                "9": {
+                    "name": "Birch Standing Sign (North-NorthEast)"
+                },
+                "10": {
+                    "name": "Birch Standing Sign (NorthEast)"
+                },
+                "11": {
+                    "name": "Birch Standing Sign (East-NorthEast)"
+                },
+                "12": {
+                    "name": "Birch Standing Sign (East)"
+                },
+                "13": {
+                    "name": "Birch Standing Sign (East-SouthEast)"
+                },
+                "14": {
+                    "name": "Birch Standing Sign (SouthEast)"
+                },
+                "15": {
+                    "name": "Birch Standing Sign (South-SouthEast)"
+                }
+            }
+        },
+        {
+            "id": 474,
+            "idStr": "jungle_standing_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Jungle Standing Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                13
+            ],
+            "type": "SIGNPOST",
+            "data": {
+                "0": {
+                    "name": "Jungle Standing Sign (South)"
+                },
+                "1": {
+                    "name": "Jungle Standing Sign (South-SouthWest)"
+                },
+                "2": {
+                    "name": "Jungle Standing Sign (SouthWest)"
+                },
+                "3": {
+                    "name": "Jungle Standing Sign (West-SouthWest)"
+                },
+                "4": {
+                    "name": "Jungle Standing Sign (West)"
+                },
+                "5": {
+                    "name": "Jungle Standing Sign (West-NorthWest)"
+                },
+                "6": {
+                    "name": "Jungle Standing Sign (NorthWest)"
+                },
+                "7": {
+                    "name": "Jungle Standing Sign (North-NorthWest)"
+                },
+                "8": {
+                    "name": "Jungle Standing Sign (North)"
+                },
+                "9": {
+                    "name": "Jungle Standing Sign (North-NorthEast)"
+                },
+                "10": {
+                    "name": "Jungle Standing Sign (NorthEast)"
+                },
+                "11": {
+                    "name": "Jungle Standing Sign (East-NorthEast)"
+                },
+                "12": {
+                    "name": "Jungle Standing Sign (East)"
+                },
+                "13": {
+                    "name": "Jungle Standing Sign (East-SouthEast)"
+                },
+                "14": {
+                    "name": "Jungle Standing Sign (SouthEast)"
+                },
+                "15": {
+                    "name": "Jungle Standing Sign (South-SouthEast)"
+                }
+            }
+        },
+        {
+            "id": 475,
+            "idStr": "acacia_standing_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Acacia Standing Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                14
+            ],
+            "type": "SIGNPOST",
+            "data": {
+                "0": {
+                    "name": "Acacia Standing Sign (South)"
+                },
+                "1": {
+                    "name": "Acacia Standing Sign (South-SouthWest)"
+                },
+                "2": {
+                    "name": "Acacia Standing Sign (SouthWest)"
+                },
+                "3": {
+                    "name": "Acacia Standing Sign (West-SouthWest)"
+                },
+                "4": {
+                    "name": "Acacia Standing Sign (West)"
+                },
+                "5": {
+                    "name": "Acacia Standing Sign (West-NorthWest)"
+                },
+                "6": {
+                    "name": "Acacia Standing Sign (NorthWest)"
+                },
+                "7": {
+                    "name": "Acacia Standing Sign (North-NorthWest)"
+                },
+                "8": {
+                    "name": "Acacia Standing Sign (North)"
+                },
+                "9": {
+                    "name": "Acacia Standing Sign (North-NorthEast)"
+                },
+                "10": {
+                    "name": "Acacia Standing Sign (NorthEast)"
+                },
+                "11": {
+                    "name": "Acacia Standing Sign (East-NorthEast)"
+                },
+                "12": {
+                    "name": "Acacia Standing Sign (East)"
+                },
+                "13": {
+                    "name": "Acacia Standing Sign (East-SouthEast)"
+                },
+                "14": {
+                    "name": "Acacia Standing Sign (SouthEast)"
+                },
+                "15": {
+                    "name": "Acacia Standing Sign (South-SouthEast)"
+                }
+            }
+        },
+        {
+            "id": 476,
+            "idStr": "darkoak_standing_sign",
+            "mapcolor": [
+                111,
+                91,
+                54
+            ],
+            "name": "Dark Oak Standing Sign",
+            "opacity": 0,
+            "tex": [
+                20,
+                15
+            ],
+            "type": "SIGNPOST",
+            "data": {
+                "0": {
+                    "name": "Dark Oak Standing Sign (South)"
+                },
+                "1": {
+                    "name": "Dark Oak Standing Sign (South-SouthWest)"
+                },
+                "2": {
+                    "name": "Dark Oak Standing Sign (SouthWest)"
+                },
+                "3": {
+                    "name": "Dark Oak Standing Sign (West-SouthWest)"
+                },
+                "4": {
+                    "name": "Dark Oak Standing Sign (West)"
+                },
+                "5": {
+                    "name": "Dark Oak Standing Sign (West-NorthWest)"
+                },
+                "6": {
+                    "name": "Dark Oak Standing Sign (NorthWest)"
+                },
+                "7": {
+                    "name": "Dark Oak Standing Sign (North-NorthWest)"
+                },
+                "8": {
+                    "name": "Dark Oak Standing Sign (North)"
+                },
+                "9": {
+                    "name": "Dark Oak Standing Sign (North-NorthEast)"
+                },
+                "10": {
+                    "name": "Dark Oak Standing Sign (NorthEast)"
+                },
+                "11": {
+                    "name": "Dark Oak Standing Sign (East-NorthEast)"
+                },
+                "12": {
+                    "name": "Dark Oak Standing Sign (East)"
+                },
+                "13": {
+                    "name": "Dark Oak Standing Sign (East-SouthEast)"
+                },
+                "14": {
+                    "name": "Dark Oak Standing Sign (SouthEast)"
+                },
+                "15": {
+                    "name": "Dark Oak Standing Sign (South-SouthEast)"
+                }
+            }
+        }
+    ]
+}

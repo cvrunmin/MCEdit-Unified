@@ -2185,7 +2185,8 @@ class WallSignBlockRenderer(BlockRenderer):
     
     @classmethod
     def getBlocktypes(cls, mats):
-        return [mats["minecraft:wall_sign"].ID]
+        #return [mats["minecraft:wall_sign"].ID]
+        return [block.ID for block in mats.blocksByType["WALLSIGN"]]
     
     wallSignTemplate = makeVertexTemplatesFromJsonModel((0, 4.5, 0), (16, 13.5, 2), {
         "down": (0, 11, 18, 13),
@@ -2213,7 +2214,8 @@ class StandingSignRenderer(BlockRenderer):
     
     @classmethod
     def getBlocktypes(cls, mats):
-        return [mats["minecraft:standing_sign"].ID]
+        #return [mats["minecraft:standing_sign"].ID]
+        return [block.ID for block in mats.blocksByType["SIGNPOST"]]
     
     signTemplate = makeVertexTemplatesFromJsonModel((0, 7, 7), (16, 16, 9), {
         "down": (0, 14, 16, 16),

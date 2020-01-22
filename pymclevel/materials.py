@@ -1188,6 +1188,12 @@ def build_pocket_materials():
 
     pocketMaterials.NormalStoneStairs = pocketMaterials[420, 0]
 
+    # Wall Signs:
+    pocketMaterials.SpruceWallSign = pocketMaterials[437, 2]
+    pocketMaterials.SpruceWallSign = pocketMaterials[437, 3]
+    pocketMaterials.SpruceWallSign = pocketMaterials[437, 4]
+    pocketMaterials.SpruceWallSign = pocketMaterials[437, 5]
+
     build_api_material_map(pocketMaterials)
 
 def printStaticDefs(name, file_name=None):
