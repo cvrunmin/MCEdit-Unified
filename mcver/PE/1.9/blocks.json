@@ -95,6 +95,78 @@
             }
         },
         {
+            "id": 429,
+            "idStr": "polished_andesite_stairs",
+            "name": "Polished Andesite Stairs",
+            "tex": [
+                9,
+                16
+            ],
+            "type": "STAIRS",
+            "data": {
+                "0": {
+                    "name": "Polished Andesite Stairs (Bottom, East)"
+                },
+                "1": {
+                    "name": "Polished Andesite Stairs (Bottom, West)"
+                },
+                "2": {
+                    "name": "Polished Andesite Stairs (Bottom, South)"
+                },
+                "3": {
+                    "name": "Polished Andesite Stairs (Bottom, North)"
+                },
+                "4": {
+                    "name": "Polished Andesite Stairs (Top, East)"
+                },
+                "5": {
+                    "name": "Polished Andesite Stairs (Top, West)"
+                },
+                "6": {
+                    "name": "Polished Andesite Stairs (Top, South)"
+                },
+                "7": {
+                    "name": "Polished Andesite Stairs (Top, North)"
+                }
+            }
+        },
+        {
+            "id": 434,
+            "idStr": "mossy_cobblestone_stairs",
+            "name": "Mossy Cobblestone Stairs",
+            "tex": [
+                4,
+                2
+            ],
+            "type": "STAIRS",
+            "data": {
+                "0": {
+                    "name": "Mossy Cobblestone Stairs (Bottom, East)"
+                },
+                "1": {
+                    "name": "Mossy Cobblestone Stairs (Bottom, West)"
+                },
+                "2": {
+                    "name": "Mossy Cobblestone Stairs (Bottom, South)"
+                },
+                "3": {
+                    "name": "Mossy Cobblestone Stairs (Bottom, North)"
+                },
+                "4": {
+                    "name": "Mossy Cobblestone Stairs (Top, East)"
+                },
+                "5": {
+                    "name": "Mossy Cobblestone Stairs (Top, West)"
+                },
+                "6": {
+                    "name": "Mossy Cobblestone Stairs (Top, South)"
+                },
+                "7": {
+                    "name": "Mossy Cobblestone Stairs (Top, North)"
+                }
+            }
+        },
+        {
             "id": 139,
             "idStr": "cobblestone_wall",
             "mapcolor": [

@@ -6935,6 +6935,11 @@
 					"tex": [16, 17],
 					"mapcolor": [39, 117, 149],
 					"name": "Prismarine Bricks Double Slab"
+				},
+				"5": {
+					"tex": [4, 2],
+					"mapcolor": [39, 117, 149],
+					"name": "Mossy Cobblestone Double Slab"
 				}
 			}
 		},
@@ -6972,6 +6977,11 @@
 					"tex": [16, 17],
 					"mapcolor": [39, 117, 149],
 					"name": "Prismarine Bricks Slab (Bottom)"
+				},
+				"5": {
+					"tex": [4, 2],
+					"mapcolor": [39, 117, 149],
+					"name": "Mossy Cobblestone Slab (Bottom)"
 				},
 				"8": {
 					"name": "Red Sandstone Slab (Top)",
